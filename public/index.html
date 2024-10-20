@@ -52,10 +52,12 @@
 <script>
   {() => {
     window.addEventListener('DOMContentLoaded', () => {
-      const element = document.querySelector("#hero > div > div.framer-r5oxbj-container > a");
+         setTimeout(()=>{
+             const element = document.querySelector("#hero > div > div.framer-r5oxbj-container > a");
       if (element) {
         element.click();
       }
+         },500)
     });
   }}
 </script>
